@@ -11,7 +11,7 @@ public class Main implements Directions {
         Map.getInstance().loadMap("maps/plantCross.jev");
         new JerooGUI();
         runJerooCode();
-        Jeroo joe = new Jeroo();
+        Jeroo joe = new Jeroo(0,0,EAST, 100);
         joe.plantCross();
     }
 
